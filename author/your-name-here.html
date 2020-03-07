@@ -1,67 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
-        <meta charset="utf-8" />
-        <title>Real Alchemy - Your Name Here</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Real Alchemy Atom Feed" />
+    <title>Articles by Your Name Here &mdash; Real Alchemy</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- Open Graph tags -->
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Real Alchemy"/>
+            <meta property="og:url" content=""/>
+            <meta property="og:description" content="Real Alchemy"/>
+	
+    <!-- Bootstrap -->
+        <link href="/theme/css/bootstrap.minchindotca.min.css" rel="stylesheet" type="text/css"/>
+
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Real Alchemy ATOM Feed"/>
+
 </head>
+<body>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Real Alchemy</a></h1>
-                <nav><ul>
-                    <li><a href="/pages/about.html">About</a></li>
-                    <li><a href="/category/misc.html">misc</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-3">
+			<div class="sidebar-nav">
+				<div class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="/" class="navbar-brand">
+Real Alchemy						</a>
+					</div>
+					<div class="collapse navbar-collapse sidebar-navbar-collapse navbar-nonheader">
+						<ul class="nav navbar-nav">
+									<li >
+										<a href="/category/misc.html">Misc</a>
+									</li>
+						</ul>
+					</div> <!-- /.navbar-collapse -->
+				</div>
+			</div> <!-- /.sidebar-nav -->
+		</div>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/first-post-on-my-sweet-new-blog.html">First Post on My Sweet New Blog</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2020-07-03T00:00:00+05:30">
-                Published: Fri 03 July 2020
-        </abbr>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/your-name-here.html">Your Name Here</a>
-        </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
+		<div class="col-sm-6">
 
-</footer><!-- /.post-info --><h1>I am On My Way To Internet Fame and Fortune!</h1>
+
+            <article>
+                <h2><a href="/first-post-on-my-sweet-new-blog.html">First Post on My Sweet New Blog</a></h2>
+                <div class="summary"><h1>I am On My Way To Internet Fame and Fortune!</h1>
 <p>This is my first post on my new blog. While not super informative it
 should convey my sense of excitement and eagerness to engage with you,
-the reader!</p>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+the reader!</p>
+                    <a class="btn btn-default btn-xs" href="/first-post-on-my-sweet-new-blog.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+		</div>
+        <div class="col-sm-3 well well-sm" id="sidebar">
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+
+
+
+                <li class="list-group-item"><a href="/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                    <ul class="list-group " id="tags">
+                    </ul>
+                </li>    
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<footer>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-sm-10 col-xs-8">
+                &copy; 2020 Real Alchemist
+                    &bull;
+                    <a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Real Alchemy ATOM Feed"><i class="fa fa-rss-square" aria-hidden="true"></i> Atom Feed</a>
+            </div>
+            <div class="col-sm-2 col-xs-4"><p class="pull-right"><span class="fa fa-arrow-up"></span> <a href="#">Back to top</a></p></div>
+        </div>
+    </div>
+</footer>
+	<script src="/theme/js/jquery.min.js" type="text/javascript"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="/theme/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+	<script src="/theme/js/respond.min.js" type="text/javascript"></script>
+
 
 </body>
 </html>

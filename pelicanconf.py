@@ -40,7 +40,7 @@ JINJA_FILTERS = {
 
 AUTHOR = 'Real Alchemist'
 SITENAME = 'Real Alchemy'
-SITEURL = 'srisivac.realalchemu.in'
+SITEURL = 'srisivac.realalchemu.in/blog'
 
 PATH = 'content'
 
